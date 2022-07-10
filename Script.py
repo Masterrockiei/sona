@@ -25,7 +25,7 @@ class script(object):
 2. you can find movies in pm but you can send new movies from (2022 to ...)
 3. some people are hating group because of the lot messages are comming in a second that's why my owner creating bot like this
    
-   owner:-@Unni0240
+   owner:-@Unni0240"""
     MUSIC_TXT = """Help: <b>you tube</b>
     
 Music download modules, for those who love music.
