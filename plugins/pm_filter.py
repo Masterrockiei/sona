@@ -418,7 +418,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('sᴇᴀʀᴄʜ ʜᴇʀᴇ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('sᴛᴀᴛs', callback_data='stats')
             ],[
-            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -442,7 +442,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 𝐁𝐚𝐜𝐤', callback_data='about')
+            InlineKeyboardButton('👩‍🦯 𝐁𝐚𝐜𝐤', callback_data='close')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -452,7 +452,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "music":
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 𝐁𝐚𝐜𝐤', callback_data='about')
+            InlineKeyboardButton('👩‍🦯 𝐁𝐚𝐜𝐤', callback_data='close')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
