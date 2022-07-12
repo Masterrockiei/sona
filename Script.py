@@ -22,10 +22,10 @@ class script(object):
 
 <b>NOTE:</b>
 1. you can't add me to your group.
-2. you can find movies in pm but you can send new movies from (2022 to ...)
+2. you can find movies in pm but you can search new movies in 2022 to ....
 3. some people are hating group because of the lot messages are comming in a second that's why my owner creating bot like this
    
-   owner:-@Unni0240"""
+• Any doubts :-@Unni0240"""
     MUSIC_TXT = """Help: <b>you tube</b>
     
 Music download modules, for those who love music.
@@ -35,8 +35,8 @@ Music download modules, for those who love music.
 • /video or /mp4 (songname) - download video from yt servers.
 
 <b>NOTE:</b>
-• These commands works only on group.
-• These commands can be used by any group member."""
+• These commands works only on pm
+• Any bug report :-@Unni0240"""
     STATUS_TXT = """⍟ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
 ⍟ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
 ⍟ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
