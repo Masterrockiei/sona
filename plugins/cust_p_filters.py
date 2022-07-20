@@ -2,7 +2,6 @@ from pyrogram import (
     filters
 )
 from info import ADMINS, AUTH_USERS
-import admin_check
 import os
 
 USE_AS_BOT = os.environ.get("USE_AS_BOT", True)
