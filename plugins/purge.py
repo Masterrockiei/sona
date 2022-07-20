@@ -4,7 +4,6 @@ Syntax: .purge"""
 import asyncio
 from pyrogram import Client, filters
 from info import (
-    COMMAND_HAND_LER,
     TG_MAX_SELECT_LEN
 )
 from plugins.helper_functions.admin_check import admin_check
