@@ -9,6 +9,7 @@ py-Ultroid==2022.3.20
 pytgcalls==3.0.0.dev21
 aiohttp==3.7.4
 aiofiles
+telegraph
 requests
 bs4
 imdbpy
