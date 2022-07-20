@@ -17,7 +17,6 @@ import yt_dlp
 from youtube_search import YoutubeSearch
 import requests
 from pyrogram import filters
-from plugins.pluginhelpers import edit_or_reply, fetch_audio
 from pyrogram import Client
 
 
