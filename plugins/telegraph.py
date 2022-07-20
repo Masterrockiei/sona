@@ -2,9 +2,6 @@ import os
 import shutil
 from pyrogram import Client, filters
 from telegraph import upload_file
-import sudo_filter
-import get_file_id
-
 
 TMP_DOWNLOAD_DIRECTORY = "./DOWNLOADS/"
 
