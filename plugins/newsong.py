@@ -9,7 +9,6 @@ import aiofiles
 import aiohttp
 import wget
 from pyrogram import Client, filters
-from config import ADMINS
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from youtubesearchpython import SearchVideos
