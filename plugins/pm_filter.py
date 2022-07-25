@@ -800,7 +800,3 @@ async def manual_filters(client, message, text=False):
                 break
     else:
         return False
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-
