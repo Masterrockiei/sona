@@ -22,10 +22,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('📢 𝐔𝐩𝐝𝐚𝐭𝐞', url='https://t.me/sakura_movie_update')
+                InlineKeyboardButton('📢 𝑈𝑝𝑑𝑎𝑡𝑒', url='https://t.me/sakura_movie_update')
             ],
             [
-                InlineKeyboardButton('ℹ️ 𝐇𝐞𝐥𝐩', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('ℹ️ 𝐻𝑒𝑙𝑝', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -41,8 +41,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('➕ 𝐴𝑑𝑑 𝑇𝑜 𝐺𝑟𝑜𝑢𝑝', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('ℹ️ 𝐻𝑒𝑙𝑝', callback_data='help'),
+            InlineKeyboardButton('🔐 𝐶𝑙𝑜𝑠𝑒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAPLYhmLeQjtiqPZJEHOFh4KFOjbWzcAAvgDAAKfRIlXnd2oxpsLJeYeBA")
@@ -64,13 +66,13 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "🤖 𝐽𝑜𝑖𝑛 𝑢𝑝𝑑𝑎𝑡𝑒 𝑐ℎ𝑎𝑛𝑛𝑒𝑙", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton(" 🔄 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton(" ♻️ 𝑅𝑒𝑓𝑟𝑒𝑠ℎ", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**Please Join My Updates Channel to use this Bot!**",
@@ -80,9 +82,10 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
+            InlineKeyboardButton('➕ 𝐴𝑑𝑑 𝑇𝑜 𝐺𝑟𝑜𝑢𝑝', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-           InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data') 
+            InlineKeyboardButton('ℹ️ 𝐻𝑒𝑙𝑝', callback_data='help'),
+            InlineKeyboardButton('🔐 𝐶𝑙𝑜𝑠𝑒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -262,7 +265,7 @@ async def delete(bot, message):
     """Delete file from database"""
     reply = message.reply_to_message
     if reply and reply.media:
-        msg = await message.reply("𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠...⏳", quote=True)
+        msg = await message.reply("𝑃𝑟𝑜𝑐𝑒𝑠𝑠𝑖𝑛𝑔...⏳", quote=True)
     else:
         await message.reply('Reply to file with /delete which you want to delete', quote=True)
         return
