@@ -1,8 +1,8 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    START_TXT = """𝐻𝑒𝑙𝑙𝑜 {},
+𝑀𝑦 𝑛𝑎𝑚𝑒 𝑖𝑠 <a href=https://t.me/{}>{}</a>,𝐼 𝑐𝑎𝑛 𝑝𝑟𝑜𝑣𝑖𝑑𝑒 𝑚𝑜𝑣𝑖𝑒𝑠, 𝐽𝑢𝑠𝑡 𝑎𝑑𝑑 𝑚𝑒 𝑡𝑜 𝑦𝑜𝑢𝑟 𝑔𝑟𝑜𝑢𝑝 𝑎𝑛𝑑 𝑒𝑛𝑗𝑜𝑦 💖"""
+    HELP_TXT = """𝐻𝑒𝑦 {}
+𝐻𝑒𝑟𝑒 𝐼𝑠 𝑇ℎ𝑒 𝐻𝑒𝑙𝑝 𝐹𝑜𝑟 𝑀𝑦 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Unni0240>Amal Nath</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
@@ -35,7 +35,7 @@ class script(object):
 2. Sakura supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https://t.me/amal_nath_05)</code>
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     MUSIC_TXT = """Help: <b>you tube</b>
@@ -45,8 +45,7 @@ Music download modules, for those who love music.
 • /song or /mp3 (songname) - download song from yt servers.
 • /video or /mp4 (songname) - download video from yt servers.
 <b>NOTE:</b>
-• These commands works only on group.
-• These commands can be used by any group member."""
+• These commands works only on pm."""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 <b>NOTE:</b>
 1. Make me the admin of your channel if it's private.
@@ -86,11 +85,11 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """⍟ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-⍟ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-⍟ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-⍟ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱
-⍟ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱"""
+    STATUS_TXT = """⍟ 𝑇𝑜𝑡𝑎𝑙 𝐹𝑖𝑙𝑒𝑠: <code>{}</code>
+⍟ 𝑇𝑜𝑡𝑎𝑙 𝑈𝑠𝑒𝑟𝑠: <code>{}</code>
+⍟ 𝑇𝑜𝑡𝑎𝑙 𝐶ℎ𝑎𝑡𝑠: <code>{}</code>
+⍟ 𝑈𝑠𝑒𝑑 𝑆𝑡𝑜𝑟𝑎𝑔𝑒: <code>{}</code> 𝙼𝙱
+⍟ 𝐹𝑟𝑒𝑒 𝑆𝑡𝑜𝑟𝑎𝑔𝑒: <code>{}</code> 𝙼𝙱"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
