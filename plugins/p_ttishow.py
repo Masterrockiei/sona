@@ -22,7 +22,7 @@ async def save_group(bot, message):
         if message.chat.id in temp.BANNED_CHATS:
             # Inspired from a boat of a banana tree
             buttons = [[
-                InlineKeyboardButton('𝗢𝗪𝗡𝗘𝗥', url=f'https://t.me/{SUPPORT_CHAT}')
+                InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=f'https://t.me/amal_nath_05')
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
@@ -38,10 +38,10 @@ async def save_group(bot, message):
             return
         buttons = [
             [
-                InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/MWUpdatez')
+                InlineKeyboardButton('💠 ᴄʜᴀɴɴᴇʟ', url='https://t.me/amal_nath_05')
             ],
             [
-                InlineKeyboardButton('♻️ HΞLᎮ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
+                InlineKeyboardButton('🤔 ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]
             ]
         reply_markup=InlineKeyboardMarkup(buttons)
@@ -69,7 +69,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('𝗢𝗪𝗡𝗘𝗥', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('sᴜᴘᴘᴏᴏʀᴛ ᴄʜᴀᴛ', url='https://t.me/amal_nath_05}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -107,7 +107,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Succesfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('𝗢𝗪𝗡𝗘𝗥', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('𝗢𝗪𝗡𝗘𝗥', url=f'https://t.me/amal_nath_05')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
